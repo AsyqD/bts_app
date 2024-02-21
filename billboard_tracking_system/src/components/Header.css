@@ -1,0 +1,102 @@
+/* styles.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust width as needed */
+    height: 45px; /* Ensures aspect ratio is maintained */
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 39px;
+    color: #656560;
+    
+    margin-right: 124px;
+
+  }
+  
+  .nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 56px;
+    width: 216px;
+    height: 85px;
+    top: 76px;
+    left: 969px;
+    
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #070000;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  .nav-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #666666; /* Change color on hover */
+  }
+  
+  .buttons button {
+    margin-left: 10px;
+    width: 119px;
+    height: 42px;
+    top: 76px;
+    left: 1147px;
+    padding: 7px, 0px, 10px, 24px;
+    border-radius: 7px;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+
+  }
+  
+  .sign-up {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sign-in {
+    background-color: #514242B8;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sign-up:hover {
+    background-color: #b30000; /* Darker shade of red */
+  }
+
+  .sign-in:hover {
+    background-color: #cccccc; /* Lighter shade of gray */
+  }
