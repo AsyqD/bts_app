@@ -7,6 +7,7 @@ import About from "./about";
 import Services from "./services";
 import Reviews from "./reviews";
 import {Link as ScrollLink} from 'react-scroll';
+import Contacts from "./contacts";
 export default function Root(){
     return (
       <div className="flex flex-col gap-2">
@@ -26,7 +27,7 @@ export default function Root(){
               <li><ScrollLink to="About" smooth={true} duration={500}>About</ScrollLink></li>
               <li><ScrollLink to="Services" smooth={true} duration={500}>Services</ScrollLink></li>
               <li><ScrollLink to="Reviews" smooth={true} duration={500}>Reviews</ScrollLink></li>
-              {/* <li><ScrollLink to="ontacts">Contacts</ScrollLink></li> */}
+              <li><ScrollLink to="Contacts" smooth={true} duration={500}>Contacts</ScrollLink></li>
             </ul>
           </nav>
           <div className="buttons">
@@ -43,6 +44,9 @@ export default function Root(){
           </div>
           <div id="Reviews">
               <Reviews/>
+          </div>
+          <div id="Contacts">
+              <Contacts/>
           </div>
         </div>
       </div>
