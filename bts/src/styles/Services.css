@@ -1,0 +1,72 @@
+/* Services.css */
+*{
+	background-color: white;
+	color: black;
+}
+.services-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .services-title {
+    font-family: 'Ruslan Display', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    color: red;
+  }
+  
+  .description-box {
+    width: 652px;
+    height: auto; /* Change height to auto to accommodate text */
+    margin: 20px auto;
+    padding: 20px; /* Add padding to create space around the text */
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .description-text {
+    font-family: 'Scada', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 20px; /* Add margin to separate text from title */
+  }
+  
+  .images-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .image-item {
+    width: 415px;
+    height: 352px;
+    /* top: 1310px;
+    left: 522px; */
+
+    position: relative;
+    margin-right: 20px; 
+  }
+  
+  .service-image {
+    width: 383px;
+    height: 244px;
+  }
+  
+  .image-text {
+    position: absolute;
+    bottom: 10px;
+    left: 0; 
+    width: 100%; 
+    text-align: center; 
+    font-family: Mate;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+  }
+  
