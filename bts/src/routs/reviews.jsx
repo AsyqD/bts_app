@@ -6,7 +6,7 @@ import bg_img from '../images/reviews_page_bg.png'
 
 
 export default function Reviews() {
-    const reviews = [
+    const reviews = [ // should be imported from somewhere
         {
             id: 1,
             text: 'Impressive Results! This billboard advertising company delivered exceptional results, increasing our brand visibility significantly. Highly recommended!',
@@ -30,8 +30,8 @@ export default function Reviews() {
         },
     ];
     return (
-      <div className="reviews">
-        <header>
+      <div className="flex flex-col gap-2">
+        <header className='review-header'>
             <div className="miniheader">
                 <h1 className="review-title">Reviews</h1>
             </div>

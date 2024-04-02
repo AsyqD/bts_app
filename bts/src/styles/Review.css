@@ -1,32 +1,39 @@
-header {
-	height: 100px;
+/* .reviews{
+	height: 100vh;
+} */
+.review-header {
+	padding-top: 10vh;
+	/* margin-bottom: 5vh; */
+	/* height: 10vh; */
+	display: flex;
+    justify-content: center; 
+	align-items: center;
 } 
 
 .review-title {
     font-family: 'Ruslan Display', cursive;
     font-size: 48px;
     font-weight: 400;
-    line-height: 52px;
+	padding: 0;
+    /* line-height: 52px; */
     letter-spacing: 0em;
     color: red;
   }
 
 .miniheader{
-	 width: 652px;
-    height: auto; /* Change height to auto to accommodate text */
     margin: 20px auto;
-    padding: 20px; /* Add padding to create space around the text */
+    padding: 20px; 
     display: flex;
-    flex-direction: column; /* Align items vertically */
+    flex-direction: column; 
     justify-content: center; 
-	align-items: center;/* Center content vertically */
+	align-items: center;
   }
 
 .reviews-container{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: 100vh;
+	height: 80vh;
 }
 .review-box{
 	padding: 20px;	

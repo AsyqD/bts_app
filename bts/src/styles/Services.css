@@ -1,4 +1,5 @@
 /* Services.css */
+
 *{
 	background-color: white;
 	color: black;
@@ -6,6 +7,9 @@
 .services-container {
     text-align: center;
     padding: 50px;
+    top: 10%;
+    height: 100vh;
+    width: 100vw;
   }
   
   .services-title {

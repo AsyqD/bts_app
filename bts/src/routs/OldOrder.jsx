@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/OldOrder.css';
+import '../styles/OldOrder.css';
 
 const Orders = () => {
   return (
