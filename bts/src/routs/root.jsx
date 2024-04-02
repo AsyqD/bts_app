@@ -2,7 +2,7 @@ import { Outlet, Link, useLoaderData, } from "react-router-dom";
 import React from "react";
 // import Header from "../header";
 import '../styles/Header.css';
-import logo from '../../public/logo.png';
+import logo from '../images/logo.png';
 import About from "./about";
 import Services from "./services";
 import Reviews from "./reviews";
@@ -11,6 +11,7 @@ import Contacts from "./contacts";
 export default function Root(){
     return (
       <div className="flex flex-col gap-2">
+        <div style={{position:'fixed', top:0, left:0, width: '100%', zIndex: 100000}}>
         <header>{/* style={{position: "fixed", width: "100%"}}*/}
           <div className="logo-container">
             <img src={logo} alt="Logo" className="logo" />
@@ -22,7 +23,7 @@ export default function Root(){
               {/* <li><Link to="/about">About</Link></li>
               <li><Link to="/services">Services</Link></li>
               <li><Link to="/reviews">Reviews</Link></li>
-              <li><Link to="/contacts">Contacts</Link></li> */}
+              <li><Link o="/contacts">Contacts</Link></li> */}
               {/* react-sroll */}
               <li><ScrollLink to="About" smooth={true} duration={500}>About</ScrollLink></li>
               <li><ScrollLink to="Services" smooth={true} duration={500}>Services</ScrollLink></li>
@@ -35,6 +36,7 @@ export default function Root(){
             <button className="sign-in">Sign in</button>
           </div>
         </header>
+        </div>
         <div className="content">
           <div id="About">
               <About/>

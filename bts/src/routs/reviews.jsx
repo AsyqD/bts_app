@@ -1,8 +1,8 @@
 import '../styles/Review.css';
-import img1 from '../../public/review_person_1.png';
-import img2 from '../../public/review_person_2.png';
-import img3 from '../../public/review_person_3.png';
-import bg_img from '../../public/reviews_page_bg.png'
+import img1 from '../images/review_person_1.png';
+import img2 from '../images/review_person_2.png';
+import img3 from '../images/review_person_3.png';
+import bg_img from '../images/reviews_page_bg.png'
 
 
 export default function Reviews() {

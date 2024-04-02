@@ -1,8 +1,8 @@
 // import React from "react";
 import '../styles/Services.css';
-import img1 from '../../public/billboardImg2.png'
-import img2 from '../../public/billboardImg3.png'
-import img3 from '../../public/billboardImg4.png'
+import img1 from '../images/billboardImg2.png'
+import img2 from '../images/billboardImg3.png'
+import img3 from '../images/billboardImg4.png'
 
 function Services() {
     return (

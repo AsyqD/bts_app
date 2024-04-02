@@ -1,5 +1,5 @@
 // About.js
-import image from '../../public/billboardImg_1.jpeg';
+import image from '../images/billboardImg_1.jpeg';
 import React from 'react';
 import '../styles/About.css'; // Importing CSS file
 
