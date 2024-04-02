@@ -1,0 +1,36 @@
+.orders-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+.new-order {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+}
+.old-order {
+  width: 400px;
+  height: 200px;
+  border: 1px solid;
+  border-color: #585858;
+  border-radius: 5px;
+}
+
+.section-title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  color: #000000;
+}
+.old-order-des{
+  color: #000000;
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 500;
+}

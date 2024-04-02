@@ -1,0 +1,71 @@
+.orders-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.new-order {
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+}
+.order-section {
+  width: 400px;
+}
+
+.section-title {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  color: #000000;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.pay-button {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 15px;
+  background-color: #ff0000;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 400px;
+}
+
+button:hover {
+  background-color: #333333;
+}

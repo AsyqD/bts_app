@@ -1,0 +1,72 @@
+.navbar {
+  position: relative;
+}
+.link{
+  text-decoration: none;
+  color: #070000;
+}
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+  display: flex; 
+}
+
+.nav-links li {
+  display: inline-block; 
+  margin-right: 20px; 
+}
+
+
+.happy-client {
+  display: flex;
+  align-items: center; 
+}
+
+.logo-img {
+  width: 150px; 
+  height: auto;
+  margin-right: 10px; 
+
+}
+
+
+.profile {
+  position: absolute;
+  width: 216px;
+  height: 85px;
+  left: 414px;
+  top: 20px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+
+.settings {
+  position: absolute;
+  width: 216px;
+  height: 85px;
+  left: 713px;
+  top: 20px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.order {
+  position: absolute;
+  width: 216px;
+  height: 85px;
+  left: 559px;
+  top: 20px;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+}
