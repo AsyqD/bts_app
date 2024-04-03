@@ -1,0 +1,40 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30vh;
+  width: 50%; /* Center the container and set its width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.input-field {
+  width: 600px; /* Make input fields two times larger */
+  padding: 20px; /* Increase padding for larger input fields */
+  margin-bottom: 20px; /* Increase margin for larger input fields */
+  border: 2px solid #ccc; /* Increase border width for larger input fields */
+  border-radius: 10px; /* Increase border radius for larger input fields */
+}
+
+.login,
+.create-account {
+  width: 600px; /* Make buttons two times larger */
+  padding: 20px; /* Increase padding for larger buttons */
+  margin-bottom: 20px; /* Increase margin for larger buttons */
+  border: none;
+  cursor: pointer;
+  border-radius: 10px; /* Increase border radius for larger buttons */
+}
+
+.login {
+  background-color: red;
+  color: white;
+}
+
+.create-account {
+  background-color: #514242b8;
+  color: #ffffff;
+}
+
+.or-text {
+  margin-bottom: 20px; /* Increase margin for larger text */
+}

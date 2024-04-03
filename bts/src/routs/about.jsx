@@ -1,9 +1,16 @@
 // About.js
+import { useNavigate } from 'react-router-dom';
 import image from '../images/billboardImg_1.jpeg';
 import React from 'react';
 import '../styles/About.css'; // Importing CSS file
 
 function About() {
+  const navigate = useNavigate ();
+
+  const handleOrderBtn = () => {
+    // Navigate to the SignIn component
+    navigate('/newOrder');
+  };
   return (
     <div className="about-container">
       <div className="left-content">
@@ -15,7 +22,7 @@ function About() {
           in key arterial roads and high streets
         </p>
         <div className="button-conteiner">
-            <button className="order-button">Order</button>
+            <button className="order-button" onClick={handleOrderBtn}>Order</button>
         </div>
         
       </div>

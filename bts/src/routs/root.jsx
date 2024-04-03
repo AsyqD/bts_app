@@ -1,4 +1,4 @@
-import { Outlet, Link, useLoaderData } from "react-router-dom";
+import { Outlet, Link, useLoaderData, useNavigate, Navigate  } from "react-router-dom";
 import React from "react";
 // import Header from "../header";
 import "../styles/Root.css";
@@ -11,6 +11,13 @@ import Contacts from "./contacts";
 import Footer from "./footer";
 
 export default function Root() {
+  const navigate = useNavigate ();
+
+  const handleSignIn = () => {
+    // Navigate to the SignIn component
+    navigate('/signin');
+  };
+
   return (
     <div className="flex flex-col gap-2 white">
       {/* <div style={{position:'fixed', top:0, left:0, width: '100%', height: '10%', zIndex: 100000}}> */}
@@ -53,7 +60,7 @@ export default function Root() {
         </nav>
         <div className="buttons">
           <button className="sign-up">Sign up</button>
-          <button className="sign-in">Sign in</button>
+          <button className="sign-in" onClick={handleSignIn}>Sign in</button>
         </div>
       </header>
       {/* </div> */}
