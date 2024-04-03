@@ -75,10 +75,10 @@
   
   .buttons button {
     margin-left: 10px;
-    width: 119px;
-    height: 42px;
-    top: 76px;
-    left: 1147px;
+    width: 120px;
+    height: 50px;
+    /* top: 76px;
+    left: 1147px; */
     padding: 7px, 0px, 10px, 24px;
     border-radius: 7px;
     font-family: Jost;
