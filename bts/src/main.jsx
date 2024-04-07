@@ -5,6 +5,7 @@ import ErrorPage from "./error-page";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from './routs/root';
 import SignInPage from './routs/signin';
+import SignUpPage from './routs/signup';
 import About from './routs/about';
 import Services from './routs/services';
 import Reviews from './routs/reviews';
@@ -16,25 +17,16 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Root/>,
-    errorElement: <ErrorPage/>,
-    // children: [
-    //   {
-    //     path: "about",
-    //     element: <About/>,
-    //   },
-    //   {
-    //     path: "services",
-    //     element: <Services/>
-    //   },
-    //   {
-    //     path: "reviews",
-    //     element: <Reviews/>
-    //   },
-    // ]
+    errorElement: <ErrorPage/>
   },
   {
     path: "/signin",
     element: <SignInPage/>,
+    errorElement: <ErrorPage/>
+  },
+  {
+    path: "/signup",
+    element: <SignUpPage/>,
     errorElement: <ErrorPage/>
   },
   {

@@ -1,15 +1,25 @@
-import React from "react";
-import { useNavigate, Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/SignIn.css"; // Import your CSS file with button styles
 import logo from "../images/logo.png";
 
 export default function SignInPage() {
-  const navigate = useNavigate();
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+  });
 
-  const handleSignIn = () => {
-    // Navigate to the SignIn component
-    navigate("/signin");
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
   };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission here, you can add your logic to submit data
+    console.log(formData);
+  };
+
   return (
     <>
       <Link to="/">
@@ -20,21 +30,33 @@ export default function SignInPage() {
               Happy <br /> Client
             </span>
           </div>
-          <div className="buttons">
-            <button className="sign-up">Sign up</button>
-            <button className="sign-in" onClick={handleSignIn}>
-              Sign in
-            </button>
-          </div>
         </header>
       </Link>
       <div className="signin-container">
         <h1 className="text-login">Login</h1>
-        <input type="text" placeholder="Email" className="input-field" />
-        <input type="password" placeholder="Password" className="input-field" />
-        <button className="login">Login</button>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            className="input-field"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            className="input-field"
+            value={formData.password}
+            onChange={handleChange}
+          />
+          <button type="submit" className="login">Login</button>
+        </form>
         <p className="or-text">or</p>
-        <button className="create-account">Create an Account</button>
+        <Link to="/signup">
+          <button className="create-account">Create Account</button>
+        </Link>
       </div>
     </>
   );

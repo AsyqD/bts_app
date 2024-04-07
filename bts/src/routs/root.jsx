@@ -18,6 +18,11 @@ export default function Root() {
     navigate('/signin');
   };
 
+  const handleSignUp = () => {
+    // Navigate to the SignIn component
+    navigate('/signup');
+  };
+
   return (
     <div className="flex flex-col gap-2 white">
       {/* <div style={{position:'fixed', top:0, left:0, width: '100%', height: '10%', zIndex: 100000}}> */}
@@ -30,12 +35,6 @@ export default function Root() {
         </div>
         <nav className="nav-links">
           <ul>
-            {/* reac-router */}
-            {/* <li><Link to="/about">About</Link></li>
-                <li><Link to="/services">Services</Link></li>
-                <li><Link to="/reviews">Reviews</Link></li>
-                <li><Link o="/contacts">Contacts</Link></li> */}
-            {/* react-sroll */}
             <li>
               <ScrollLink to="About" smooth={true} duration={500}>
                 About
@@ -59,7 +58,7 @@ export default function Root() {
           </ul>
         </nav>
         <div className="buttons">
-          <button className="sign-up">Sign up</button>
+          <button className="sign-up" onClick={handleSignUp}>Sign up</button>
           <button className="sign-in" onClick={handleSignIn}>Sign in</button>
         </div>
       </header>

@@ -1,18 +1,19 @@
-.signin-container {
+.signup-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 30vh;
-  width: 50%; /* Center the container and set its width */
-  margin: 0 auto; /* Center the container horizontally */
+  width: 50%;
+  margin: 0 auto;
 }
-.signin-container form {
+
+.signup-container form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.Signin-header {
+.Signup-header {
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -35,11 +36,10 @@
 }
 
 .logo {
-  width: 50px; /* Adjust width as needed */
-  height: 45px; /* Ensures aspect ratio is maintained */
+  width: 50px;
+  height: 45px;
   margin-right: 10px;
 }
-
 
 .logo-text {
   font-family: "Ruslan Display", sans-serif;
@@ -52,7 +52,7 @@
   margin-right: 124px;
 }
 
-.text-login {
+.text-signup {
   font-family: "Ruslan Display", sans-serif;
   color: black;
 }
@@ -65,8 +65,8 @@
   border-radius: 10px; /* Increase border radius for larger input fields */
 }
 
-.login,
-.create-account {
+.signup,
+.login-instead {
   width: 600px; /* Make buttons two times larger */
   padding: 20px; /* Increase padding for larger buttons */
   margin-bottom: 20px; /* Increase margin for larger buttons */
@@ -75,12 +75,12 @@
   border-radius: 10px; /* Increase border radius for larger buttons */
 }
 
-.login {
+.signup {
   background-color: red;
   color: white;
 }
 
-.create-account {
+.login-instead {
   background-color: #514242b8;
   color: #ffffff;
 }
