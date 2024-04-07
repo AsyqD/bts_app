@@ -37,22 +37,22 @@ export default function Footer() {
           <div className="social-links">
             <ul>
               <li>
-                <a href="#">
+                <a href="#" target="_blank">
                   <img src={twitterImg} alt="Twitter" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=100043588397773" target="_blank">
                   <img src={facebookImg} alt="Facebook" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.instagram.com/yorky_nc/" target="_blank">
                   <img src={instImg} alt="Instagram" />
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://api.whatsapp.com/send/?phone=%2B77471533681&text&type=phone_number&app_absent=0" target="_blank">
                   <img src={whatsappImg} alt="WhatsApp" />
                 </a>
               </li>

@@ -7,6 +7,87 @@
   margin: 0 auto; /* Center the container horizontally */
 }
 
+.Signin-header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-right: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+  right: 0;
+  width: "100%";
+  height: 10vh;
+  z-index: 100000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust width as needed */
+  height: 45px; /* Ensures aspect ratio is maintained */
+  margin-right: 10px;
+}
+
+.buttons button {
+  margin-left: 10px;
+  width: 120px;
+  height: 50px;
+  /* top: 76px;
+    left: 1147px; */
+  padding: 7px, 0px, 10px, 24px;
+  border-radius: 7px;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+}
+
+.sign-up {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-in {
+  background-color: #514242b8;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-up:hover {
+  background-color: #b30000; /* Darker shade of red */
+}
+
+.sign-in:hover {
+  background-color: #cccccc; /* Lighter shade of gray */
+}
+
+.logo-text {
+  font-family: "Ruslan Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 39px;
+  color: #656560;
+
+  margin-right: 124px;
+}
+
+.text-login {
+  font-family: "Ruslan Display", sans-serif;
+  color: black;
+}
+
 .input-field {
   width: 600px; /* Make input fields two times larger */
   padding: 20px; /* Increase padding for larger input fields */
